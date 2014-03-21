@@ -39,4 +39,13 @@
             <version>3.0.7.RELEASE</version>
         </dependency>
     </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.adito.maven</groupId>
+                <artifactId>adito-extention-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
